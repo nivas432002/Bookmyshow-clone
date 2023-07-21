@@ -1,0 +1,205 @@
+*{
+     margin: 0%;
+     padding: 0%;
+     font-family: 'Mulish','sans-serif';
+}
+.fnav
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 6px;
+    color: white;
+    background-color: rgb(42,42,68);
+}
+.fnav .left
+{
+    display: flex;
+    margin-top: 10px;
+}
+.left img
+{
+    margin-top: 1px;
+    width: 12%;
+}
+.fnav .right
+{
+    display: flex;
+}
+.right p
+{
+    margin-inline:22px;
+}
+.right button
+{
+    margin-inline: 22px;
+}
+.right i
+{
+    margin-inline: 22px;
+}
+.left img
+{
+    width: 22%;
+}
+.left input
+{
+    margin-inline: 11px;
+    width: 620px;
+    height: 33px;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-top: 16px;
+    border-radius: 2px; 
+} 
+.fnav .right
+{
+    display: flex;
+    margin-top: 15px;
+}
+.right p
+{
+    margin-inline:22px;  
+    font-size: 15px;
+}
+.right button
+{
+    margin-inline: 22px;
+    width: 80px;
+    height: 27px;
+    border: none;
+    border-radius: 2px;
+    background-color:rgb(244,69,98);
+    color:white ;
+}
+.right i
+{
+    margin-inline:22px;
+    font-size: 22px;
+}
+.sec-nav
+{
+     display: flex;
+     justify-content: center;
+     justify-content: space-around;
+     padding: 9px;
+     background-color: rgb(26, 26, 48);
+     color: white;
+}
+.sec-nav .sec-left
+{
+    display:flex;
+}
+.sec-nav .sec-right
+{
+    display: flex;
+}
+.sec-left p
+{
+    margin-inline-start: 18px;
+}
+.sec-right p
+{
+    margin-inline-start: 18px;
+}
+.sec-nav p:hover
+{
+      color: rgb(245, 70, 99);
+      cursor: pointer;
+      font-weight: 200;
+}
+.sec-left p
+{
+    margin-inline-start: 18px;
+}
+.sec-right p
+{
+    margin-inline-start: 22px;
+}
+.main img
+{
+    padding-top: 20px;
+    width: 100%;
+}
+.container h2
+{
+    text-align: center;
+    padding: 22px;
+}
+.container .card
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.card img
+{
+    width: 17%;
+    margin-block: 15px;
+    border-radius: 5px;
+}
+.banner img
+{
+    width: 100%;
+    margin-top: 44px;
+}
+.premiere
+{
+    background-color: rgb(8, 8, 19);
+    color:white;
+    padding: 33px;
+    margin-top: 44px;
+}
+.container h2
+{
+    margin-right: 900px;
+}
+.container .card
+{
+    margin-top: 11px;
+}
+.footer
+{
+    background-color: rgb(227, 218, 218);
+    padding: 33px;
+    margin-top: 44px;
+}
+.footer img
+{
+    width: 22%;
+    margin-left: 39%;
+    border-top: 2px solid gray;
+}
+.footer .icon
+{
+      display: flex;
+      text-align: center;
+      padding-left: 20px;
+      margin-left: 501px;
+}
+.icon i
+{
+    margin-inline: 10px;
+    font-size: 30px;
+    color:grey;
+}
+.top_games .container img
+{
+    width: 17%;
+    margin-block: 15px;
+    border-radius: 15px;
+    background-color: white;
+    justify-content: center;
+    justify-content: space-around;
+    margin-right: 10px;
+    padding: 10px;
+}
+@media only screen and (max-width: 600px)
+{
+    .container h2
+    {
+        white-space: nowrap;
+        font-size: 10px;
+    }
+}
